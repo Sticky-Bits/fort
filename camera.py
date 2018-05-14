@@ -3,7 +3,7 @@ from math import sin, cos, radians
 from enum import Enum
 
 # Default camera properties
-POSITION = pyrr.Vector3([0.0, 0.0, 0.0])
+POSITION = pyrr.Vector3([0.0, 0.0, 10.0])
 UP = pyrr.Vector3([0.0, 1.0, 0.0])
 YAW = -90.0
 PITCH = 0.0
