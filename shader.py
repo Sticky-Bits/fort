@@ -24,26 +24,26 @@ class Shader:
         glUseProgram(self.shader)
 
     # Utility uniform functions
-    def setBool(self):
+    def set_bool(self):
         raise NotImplementedError
 
-    def setInt(self):
+    def set_int(self):
         raise NotImplementedError
 
-    def setFloat(self):
+    def set_float(self):
         raise NotImplementedError
 
-    def setVec2(self):
+    def set_vec2(self):
         raise NotImplementedError
 
-    def setVec3(self):
+    def set_vec3(self):
         raise NotImplementedError
 
-    def setVec4(self):
+    def set_vec4(self):
         raise NotImplementedError
 
-    def setMat3(self):
+    def set_mat3(self):
         raise NotImplementedError
 
-    def setMat4(self):
+    def set_mat4(self):
         raise NotImplementedError
