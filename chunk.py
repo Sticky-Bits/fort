@@ -10,7 +10,7 @@ CHUNK_SIZE = 16
 
 class Chunk:
     def __init__(self, position):
-        self.verticies = []
+        self.vertices = []
         self.voxels = {}
         self.chunk_position = position
         self.world_position = tuple([x * CHUNK_SIZE for x in position])
@@ -30,7 +30,7 @@ class Chunk:
 
     def gen_vertices(self):
         # Just make a cube for now
-        self.vertices = (GLfloat * 9)(*[
+        self.vertices = (GLfloat * 108)(*[
             -1.0, -1.0, -1.0,
             -1.0, -1.0, 1.0,
             -1.0, 1.0, 1.0,
